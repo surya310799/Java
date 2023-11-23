@@ -2,14 +2,14 @@ package java_class;
 
 public class Encap {
 //Encapsulation:
-	private int x;
+	private static int x;
 	
 	//getter for get a value
-	public int getter(){
+	public static int getter(){
 		return x;
 	}
 	//setter for access a value
-	public void setter(int a) {
+	public static void setter(int a) {
 		x = a;
 	}
 	
