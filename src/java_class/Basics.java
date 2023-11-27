@@ -152,5 +152,6 @@ public class Basics {
 		}else{
 			System.out.println("print when all conditions is failed");
 		}
+		
 	}
 }
