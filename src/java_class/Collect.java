@@ -1,9 +1,12 @@
 package java_class;
 
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Map.Entry;
 
 //Collections
 // ArrayList, LinkedList, HashSet, HashMap
@@ -16,6 +19,8 @@ public class Collect {
 		LinkedList<Integer> arr2 = new LinkedList<Integer>();
 		//HashSet
 		HashSet<Integer> arr3 = new HashSet<Integer>();
+		//HasMap is like JSON or Object type
+		HashMap<String,String> obj1 = new HashMap<String,String>();
 		
 		//Empty ArrayList
 		System.out.println("Empty ArrayList");
@@ -114,6 +119,44 @@ public class Collect {
 		System.out.println("HashSet can't accept to add same value");
 		System.out.println(arr3);
 		
+		System.out.println("");
+		
+		//HashMap
+		//Empty
+		System.out.println("Empty HashMap");
+		System.out.println(obj1);
+		
+		//put Values by Key,Value
+		System.out.println("put Values by Key:Value");
+		obj1.put("name","surya");
+		obj1.put("age","24");
+		obj1.put("ID","1");
+		System.out.println(obj1);
+		
+		//Get value from HashMap using Key
+		System.out.println("Get value from HashMap using Key");
+		System.out.println(obj1.get("name"));
+		
+		//Get key and value from HashMap using entrySet
+		System.out.println("Get key and value from HashMap using entrySet");
+		for(Entry<String,String> i: obj1.entrySet()){
+			System.out.println(i);
+		}
+		
+		//replace value
+		System.out.println("replace value");
+		obj1.replace("name", "vijay");
+		System.out.println(obj1);
+		
+		//remove
+		System.out.println("remove");
+		obj1.remove("ID");
+		System.out.println(obj1);
+		
+		//clear
+		System.out.println("clear");
+		obj1.clear();
+		System.out.println(obj1);
 		
 	}
 
