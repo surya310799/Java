@@ -1,5 +1,5 @@
 package java_class;
-
+//Enum 
 public class Enum {
 
 	enum priority{

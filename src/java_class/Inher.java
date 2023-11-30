@@ -14,8 +14,11 @@ public class Inher {
 	
 	public static void main(String[] args) {
 		Child1 obj = new Child1();
+		System.out.println("print from parent1");
 		System.out.println(obj.a);
+		System.out.println("print from child1");
 		System.out.println(obj.b);
+		System.out.println("print from child1");
 		System.out.println(obj.c);
 	}
 

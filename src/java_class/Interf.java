@@ -1,5 +1,5 @@
 package java_class;
-
+//interface
 interface Parent3{
 	String s1 = "Parent";
 }

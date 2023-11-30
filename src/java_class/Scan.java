@@ -1,5 +1,5 @@
 package java_class;
-
+//Scanner
 import java.util.Scanner;	//import scanner
 
 public class Scan {

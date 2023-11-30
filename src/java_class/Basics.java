@@ -135,9 +135,9 @@ public class Basics {
 		} while(k<arr.length);
 		System.out.println("");
 		
-		//for each
+		//for of
 		for(int obj1:arr){
-			System.out.println("Get array value is "+obj1+ " using for each loop");
+			System.out.println("Get array value is "+obj1+ " using for of loop");
 		}
 		System.out.println("_____________________________________");
 		
